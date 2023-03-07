@@ -82,3 +82,97 @@ body{
     color: darkgrey;
 }
 /* service section End */
+/* laptop section start */
+.laptop-section h2{
+  margin-left: 10%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.laptops{
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+
+}
+.laptop{
+  box-shadow: inset 0 -3em 3em rgba(0, 0, 0, 0.1), 0 0 0 2px rgb(255, 255, 255),
+  0.3em 0.3em 1em rgba(0, 0, 0, 0.3);  width: 20%;
+  height: 450px;
+  border-radius: 15px;
+}
+.laptop-image{
+  height: 250px;
+}
+.laptop-image img{
+  padding: 20px;
+  width: 100%;
+  height: 100%;
+}
+.laptop-text{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  height: 200px;
+}
+.buy-btn{
+  text-decoration: none;
+  background-color: orangered;
+  color: white;
+  padding: 7px;
+  border-radius: 5px;
+  margin-top: 5px;
+}
+/* laptop section end */
+/* Phone section start */
+.phone-section h2{
+  margin-left: 10%;
+  margin-top: 30px;
+  margin-bottom: 20px;
+  margin-bottom: 50px;
+}
+.phones{
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+
+}
+.phone{
+  box-shadow: inset 0 -3em 3em rgba(0, 0, 0, 0.1), 0 0 0 2px rgb(255, 255, 255),
+  0.3em 0.3em 1em rgba(0, 0, 0, 0.3);  width: 20%;
+  height: 450px;
+  border-radius: 15px;
+ 
+}
+.phone-image{
+  height: 250px;
+}
+.phone-image img{
+  padding: 20px;
+  width: 100%;
+  height: 100%;
+}
+.phone-text{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  height: 200px;
+}
+/* phone section end */
+/* footer section start */
+footer {
+  width: 100%;
+  height: 200px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  padding-top: 50px;
+  margin-top: 40px;
+}
+
+footer h1{
+  color: white;
+}
+
+/* footer section end */
